@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 gem 'sprockets', '2.11.0'
 
+gem "factory_girl_rails", "~> 4.0"
+
 gem 'jquery-ui-rails'
 
 gem 'stripe'

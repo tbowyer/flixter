@@ -1,7 +1,7 @@
 <br />
 <center>
 <div class="booyah-box col-xs-10 col-xs-offset-1">
-  <h1 class="text-center">Learn something today</h1>
+  <h1 class="text-center img-responsive">Learn something today</h1>
   <hr />
     <% @courses.each do |course| %>
       <div class="booyah-box col-xs-10 col-xs-offset-1">
@@ -13,7 +13,7 @@
         <%= course.description %>
         <br />
         <br class="clr" />
-        <%= image_tag course.picture %>
+        <%= image_tag course.picture, class: "img-responsive" %>
       </div>
       <br />
     <% end %>
